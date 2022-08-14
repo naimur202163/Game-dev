@@ -87,3 +87,15 @@ nav ul li a {
 }
 
 /* HERO SECTION */
+.hero-section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Achivements-Card */
+.achivements-cards {
+  display: none;
+}
