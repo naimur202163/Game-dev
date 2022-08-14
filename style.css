@@ -140,12 +140,23 @@ nav ul li a {
   left: 47%;
   top: 330px;
 }
+
+.achivement-card.overall-rating {
+  left: 45%;
+  top: 520px;
+}
+.achivement-card .content div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 .achivement-card h3 {
   font-size: 36px;
   font-weight: bold;
   color: #023047;
   margin: 0px;
   text-align: center;
+  width: 100%;
 }
 
 .achivement-card p {
