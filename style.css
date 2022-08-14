@@ -257,3 +257,7 @@ section P {
 .testimonials-section .testimonial-card:last-child {
   transform: translateX(20px);
 }
+
+.testimonials-section .features {
+  margin-bottom: 30px;
+}
