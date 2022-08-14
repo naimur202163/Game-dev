@@ -109,10 +109,11 @@ nav ul li a {
   font-size: 16px;
   color: #fff;
   margin-bottom: 30px;
+  width: 457px;
 }
 
 .hero-section .left {
-  width: 457px;
+  flex: 1;
 }
 .hero-section .right {
   align-self: flex-end;
@@ -137,13 +138,14 @@ nav ul li a {
 }
 
 .achivement-card.students-enrolled {
-  left: 47%;
-  top: 330px;
+  left: 51%;
+  top: 270px;
 }
 
 .achivement-card.overall-rating {
-  left: 45%;
-  top: 520px;
+  left: 47%;
+  top: 470px;
+  min-width: 200px;
 }
 .achivement-card .content div {
   display: flex;
