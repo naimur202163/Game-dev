@@ -15,6 +15,12 @@
 body {
   margin: 0px;
 }
+/* Wrapper */
+.wrapper {
+  max-width: 1134px;
+  margin: 0 auto;
+}
+/* Buttons */
 .btn {
   border-radius: 24px;
   padding: 16px 32px;
