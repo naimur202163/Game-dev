@@ -21,10 +21,24 @@ body {
   color: #fff;
   display: inline-block;
   font-size: 18px;
+  text-decoration: none;
+  position: relative;
 }
 .btn.dark {
   background: var(--dark-blue-color);
 }
 .btn.light {
   background: var(--orange-color);
+}
+
+.btn.enroll-ichon::before {
+  content: url("./images/en.png");
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  transform: translateY(-50%);
+}
+
+.btn.enroll-ichon {
+  padding-left: 60px;
 }
