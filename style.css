@@ -214,6 +214,7 @@ section P {
   box-shadow: 0 9px 36px;
   border-radius: 24px;
   margin-bottom: 50px;
+  position: relative;
 }
 
 .testimonials-section .testimonial-card .content {
@@ -228,4 +229,31 @@ section P {
 
 .testimonials-section .testimonial-card:last-child .content {
   background: var(--orange-color);
+}
+
+.testimonials-section .testimonial-card .info h4 {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+  color: var(--dark-blue-color);
+}
+.testimonials-section .testimonial-card .info {
+  padding: 24px 34px;
+}
+.testimonials-section .achivement-card .info p.company {
+  font-size: 18px;
+  color: var(--dark-blue-color);
+}
+
+.testimonials-section .testimonial-card img {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  right: 32px;
+  bottom: 20px;
+}
+
+/* to change the position */
+.testimonials-section .testimonial-card:last-child {
+  transform: translateX(20px);
 }
