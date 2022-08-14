@@ -97,9 +97,6 @@ nav ul li a {
 }
 
 /* Achivements-Card */
-.achivements-cards {
-  display: none;
-}
 
 .hero-section .left h1 {
   font-size: 50px;
@@ -117,6 +114,26 @@ nav ul li a {
 .hero-section .left {
   width: 457px;
 }
+.hero-section .right {
+  align-self: flex-end;
+}
 .hero-section .right img {
-  height: 582px;
+  height: 520px;
+  vertical-align: middle;
+}
+
+.achivements-cards {
+}
+
+.achivement-card {
+  position: absolute;
+}
+.achivement-card .content {
+  border-radius: 24px;
+  background-color: #fff;
+  padding: 8px 32px;
+}
+
+.achivement-card.students-enrolled {
+  left: 47%;
 }
