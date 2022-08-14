@@ -389,3 +389,8 @@ section P {
   text-align: center;
   color: #fff;
 }
+
+/* Footer Section */
+footer {
+  background-color: var(--dark-blue-color);
+}
