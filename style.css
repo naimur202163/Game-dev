@@ -5,3 +5,9 @@
     --light-color:#E8F7FB;
     --light-blue:#6F7DFB;
 }
+
+*,
+::after,
+::before{
+    box-sizing: border-box;
+}
