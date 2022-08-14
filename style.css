@@ -225,3 +225,7 @@ section P {
   align-items: center;
   background: var(--light-blue);
 }
+
+.testimonials-section .testimonial-card:last-child .content {
+  background: var(--orange-color);
+}
