@@ -217,6 +217,25 @@ section P {
   position: relative;
 }
 
+.testimonials-section .testimonial-card ::before {
+  content: "";
+  width: 28px;
+  position: absolute;
+  height: 40px;
+  top: -40px;
+  left: 60px;
+  background: var(--dark-blue-color);
+  border-radius: 24px 24px 0 0;
+}
+
+.testimonials-section .testimonial-card:last-child ::before {
+  left: 40px;
+  top: -50px;
+  border-radius: 0 0 24px 24px;
+  height: calc(100%+90px);
+  z-index: -1;
+}
+
 .testimonials-section .testimonial-card .content {
   font-weight: 900;
   font-size: 18px;
@@ -239,6 +258,8 @@ section P {
 }
 .testimonials-section .testimonial-card .info {
   padding: 24px 34px;
+  background: #fff;
+  border-radius: 24px;
 }
 .testimonials-section .achivement-card .info p.company {
   font-size: 18px;
