@@ -186,4 +186,6 @@ section {
 h2 {
   font-size: 60px;
   font-weight: 900;
+  margin: 0;
+  color: var(--dark-blue-color);
 }
