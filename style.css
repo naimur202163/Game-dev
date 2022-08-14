@@ -419,3 +419,29 @@ footer ul li {
   display: grid;
   grid-template-columns: 2fr 2fr 3fr;
 }
+footer .social {
+  margin-left: 20px;
+}
+
+footer .social a {
+  margin-right: 28px;
+}
+
+footer form {
+  margin-left: 20px;
+  margin-top: 16px;
+}
+
+footer form input {
+  font-size: 16px;
+  border: none;
+  width: 100%;
+  color: #000000;
+  border-radius: 8px;
+  padding: 8px 32px;
+  position: relative;
+  outline: none;
+}
+footer .copyright {
+  margin-top: 36px;
+}
