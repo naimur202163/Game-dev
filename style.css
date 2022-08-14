@@ -196,4 +196,9 @@ h2.light {
 section P {
   font-size: 16px;
   color: var(--dark-blue-color);
+  margin: 12px 0;
+}
+
+.testimonials-section {
+  display: flex;
 }
