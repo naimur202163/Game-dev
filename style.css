@@ -688,3 +688,9 @@ nav.mobile-nav,
     grid-column: 1 / 3;
   }
 }
+
+@media (max-width: 800px) {
+  nav {
+    display: none;
+  }
+} ;
