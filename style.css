@@ -548,7 +548,9 @@ nav.mobile-nav,
   nav.scrolled {
     padding: 16px 100px;
   }
-
+  nav.mobile-nav {
+    display: none;
+  }
   header,
   .hero-section,
   header .wrapper {
@@ -692,5 +694,14 @@ nav.mobile-nav,
 @media (max-width: 800px) {
   nav {
     display: none;
+  }
+
+  nav.mobile-nav {
+    display: flex;
+  }
+  nav.mobile-nav.scrolled {
+    padding: 8px 100px;
+    background: var(--light-blue-color);
+    box-shadow: 0 9px 21px -5px rgba(0, 0, 0, 0.3);
   }
 } ;
